@@ -3,13 +3,14 @@
 using namespace std;
 
 int ReverseDigit(int num){
-    int rem,rev=0;
-while (num > 0){
+
+int rem,rev=0;
+  while (num > 0){
     rem  = num %10 ;
     num  = num/10;
     rev  = rev*10 + rem;
     }
-    return rev;
+return rev;
 }
 int main(){
     int x = 234;
